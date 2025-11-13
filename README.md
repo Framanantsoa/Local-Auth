@@ -31,9 +31,9 @@
 ## Étapes de lancement :
 * **En Local :**
     * Démarrer postgresql
-    * Entrer les scripts sql dans "bdd" : de 1 à 4
+    * Créer votre base de données et importer le dba.dump :
+        * **pg_restore -U USER -d DATABASE -v CHEMIN/dba.dump**
     * Acceder dans backend et lancer les commandes : 
-        * **dotnet restore**
         * **dotnet clean**
         * **dotnet run**
     * Utiliser l'API Rest
