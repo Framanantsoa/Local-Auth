@@ -30,15 +30,15 @@
 
 ## Étapes de lancement :
 * **En Local :**
-    * Démarrer postgresql
-    * Créer votre base de données et importer le dba.dump :
+    * Démarrez postgresql
+    * Créez votre base de données et importez le dba.dump :
         * **pg_restore -U USER -d DATABASE -v CHEMIN/dba.dump**
-    * Acceder dans backend et lancer les commandes : 
+    * Accedez dans backend et lancez les commandes : 
         * **dotnet clean**
         * **dotnet run**
-    * Utiliser l'API Rest
+    * Utilisez l'API Rest
 * **Avec Docker :**
-    * (Facu.)Installer les images docker : postgres14, dotnet-sdk-8
-    * Lancer le commande : 
+    * (Facu.)Installez les images docker : postgres14, dotnet-sdk-8
+    * Lancez le commande : 
         * **docker-compose up --build**
-    * Utiliser l'API Rest
+    * Utilisez l'API Rest
