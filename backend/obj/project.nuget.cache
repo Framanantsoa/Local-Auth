@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t802EdAnB08=",
+  "dgSpecHash": "6kkyYXW3Kpo=",
   "success": true,
-  "projectFilePath": "/home/fra/Works/Auths/backend/backend.csproj",
+  "projectFilePath": "/home/fra/Works/Local-Auth/backend/backend.csproj",
   "expectedPackageFiles": [
     "/home/fra/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/home/fra/.nuget/packages/microsoft.aspnetcore.openapi/8.0.14/microsoft.aspnetcore.openapi.8.0.14.nupkg.sha512",

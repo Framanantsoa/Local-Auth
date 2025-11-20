@@ -113,7 +113,7 @@ public class AuthController : ControllerBase
         
         try {
             string token = updateDto.token;
-            InfoUpdateDto infos = updateDto.dto;
+            InfoUpdateDto infos = updateDto.profil;
 
             var user = await service.getUserByToken(updateDto.token);
             await service.updateUserInformations(token, infos);
