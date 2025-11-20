@@ -21,24 +21,16 @@
 * **Récupération / modification de profil :**
     * Consulter et modifier les informations.
 
-* **Réinitialisation du mot de passe :**
-    * Permettre d'obtenir un nouveau mot de passe.
-
 ## Technologies :
-* **Backend :** .NET Core 8
-* **Base de données :** Postgresql 14
+* **Backend :** ASPNET Core v8.0
+* **Base de données :** Postgresql v14
 
 ## Étapes de lancement :
 * **En Local :**
     * Démarrez postgresql
-    * Créez votre base de données et importez le dba.dump :
+    * Créez la base de données et importez le dba.dump :
         * **pg_restore -U USER -d DATABASE -v CHEMIN/dba.dump**
     * Accedez dans backend et lancez les commandes : 
         * **dotnet clean**
         * **dotnet run**
-    * Utilisez l'API Rest
-* **Avec Docker :**
-    * (Facu.)Installez les images docker : postgres14, dotnet-sdk-8
-    * Lancez le commande : 
-        * **docker-compose up --build**
     * Utilisez l'API Rest
