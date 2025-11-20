@@ -1263,11 +1263,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/fra/Works/Auths/backend/backend.csproj",
+      "projectUniqueName": "/home/fra/Works/Local-Auth/backend/backend.csproj",
       "projectName": "backend",
-      "projectPath": "/home/fra/Works/Auths/backend/backend.csproj",
+      "projectPath": "/home/fra/Works/Local-Auth/backend/backend.csproj",
       "packagesPath": "/home/fra/.nuget/packages/",
-      "outputPath": "/home/fra/Works/Auths/backend/obj/",
+      "outputPath": "/home/fra/Works/Local-Auth/backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/fra/.nuget/NuGet/NuGet.Config"
